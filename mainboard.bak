@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mainboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -354,12 +355,12 @@ $EndComp
 $Comp
 L CONN_01X06 PE1
 U 1 1 5957625B
-P 9000 2450
-F 0 "PE1" H 9000 2800 50  0000 C CNN
-F 1 "CONN_01X06" V 9100 2450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9000 2450 50  0001 C CNN
-F 3 "" H 9000 2450 50  0001 C CNN
-	1    9000 2450
+P 9400 2450
+F 0 "PE1" H 9400 2800 50  0000 C CNN
+F 1 "CONN_01X06" V 9500 2450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9400 2450 50  0001 C CNN
+F 3 "" H 9400 2450 50  0001 C CNN
+	1    9400 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -628,17 +629,17 @@ Text GLabel 2100 8300 0    60   Input ~ 0
 PE6
 Text GLabel 2100 8400 0    60   Input ~ 0
 PE7
-Text GLabel 8800 2200 0    60   Input ~ 0
+Text GLabel 9200 2200 0    60   Input ~ 0
 PE2
-Text GLabel 8800 2300 0    60   Input ~ 0
+Text GLabel 9200 2300 0    60   Input ~ 0
 PE3
-Text GLabel 8800 2400 0    60   Input ~ 0
+Text GLabel 9200 2400 0    60   Input ~ 0
 PE4
-Text GLabel 8800 2500 0    60   Input ~ 0
+Text GLabel 9200 2500 0    60   Input ~ 0
 PE5
-Text GLabel 8800 2600 0    60   Input ~ 0
+Text GLabel 9200 2600 0    60   Input ~ 0
 PE6
-Text GLabel 8800 2700 0    60   Input ~ 0
+Text GLabel 9200 2700 0    60   Input ~ 0
 PE7
 Text GLabel 4700 6800 2    60   Input ~ 0
 PC0
@@ -1545,8 +1546,6 @@ Wire Wire Line
 	7600 2100 7500 2100
 Connection ~ 7500 2100
 Wire Wire Line
-	9500 1900 9400 1900
-Wire Wire Line
 	9800 1550 9800 700 
 Wire Wire Line
 	9900 1450 9800 1450
@@ -1910,19 +1909,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 4950 1350 4950
 Connection ~ 1300 5200
-$Comp
-L IRF9540N Q1
-U 1 1 595C5164
-P 14850 1200
-F 0 "Q1" H 15100 1275 50  0000 L CNN
-F 1 "IRF9540N" H 15100 1200 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 15100 1125 50  0001 L CIN
-F 3 "" H 14850 1200 50  0001 L CNN
-	1    14850 1200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14600 1100 14650 1100
 Wire Wire Line
 	14600 1300 14650 1300
 Wire Wire Line
@@ -1930,12 +1916,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 1500 15400 1500
 Wire Wire Line
-	14900 1500 14900 1400
-Wire Wire Line
 	15150 1500 15150 1450
-Connection ~ 14900 1500
-Wire Wire Line
-	15050 1100 15850 1100
 Wire Wire Line
 	15150 1100 15150 1150
 Connection ~ 15150 1500
@@ -1972,4 +1953,22 @@ SENSOR CONNECTOR\n\n\n\n
 Wire Wire Line
 	15400 1450 15400 1550
 Connection ~ 15400 1500
+$Comp
+L BSS84 Q?
+U 1 1 597096CC
+P 14850 1200
+F 0 "Q?" H 15050 1275 50  0000 L CNN
+F 1 "SQ2309ES" H 15050 1200 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 15050 1125 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/67024/sq2309es.pdf" H 14850 1200 50  0001 L CNN
+	1    14850 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14600 1100 14650 1100
+Wire Wire Line
+	15050 1100 15400 1100
+Wire Wire Line
+	14850 1400 14850 1500
+Connection ~ 14850 1500
 $EndSCHEMATC
