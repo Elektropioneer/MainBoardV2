@@ -3,7 +3,7 @@
   (general
     (links 227)
     (no_connects 7)
-    (area 58.772667 33.855266 146.840334 110.37788)
+    (area 62.154999 36.246999 143.585001 109.422001)
     (thickness 1.6)
     (drawings 237)
     (tracks 734)
@@ -3444,7 +3444,7 @@
   (gr_text GND (at 68.707 83.947) (layer B.Paste)
     (effects (font (size 0.7 0.8) (thickness 0.175)) (justify mirror))
   )
-  (gr_text PB (at 71.374 83.82) (layer B.Paste)
+  (gr_text PB (at 71.3232 83.9216) (layer B.Paste)
     (effects (font (size 0.7 0.8) (thickness 0.175)) (justify mirror))
   )
   (gr_line (start 69.2785 86.487) (end 71.1835 84.582) (angle 90) (layer B.Paste) (width 0.2))
