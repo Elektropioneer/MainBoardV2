@@ -2206,4 +2206,6 @@ Wire Notes Line
 	10450 3400 12200 3400
 Text Notes 10500 3800 0    60   ~ 0
 Input servo 5V\n\n\n\n
+Text Notes 11850 10150 0    118  ~ 0
+Main Board - Electropioneer
 $EndSCHEMATC
