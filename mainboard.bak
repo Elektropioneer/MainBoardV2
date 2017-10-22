@@ -1372,9 +1372,9 @@ Connection ~ 3600 8750
 Wire Wire Line
 	2100 5300 2050 5300
 Wire Wire Line
-	2050 5200 2050 5300
+	2050 5300 2050 5200
 Wire Wire Line
-	1650 5200 2050 5200
+	2050 5200 1650 5200
 Wire Wire Line
 	1700 4950 1700 5550
 Connection ~ 1700 5200
@@ -1562,10 +1562,6 @@ Wire Wire Line
 	12800 1750 12800 1850
 Wire Wire Line
 	13400 900  13400 950 
-Wire Wire Line
-	13400 1250 13400 1400
-Wire Wire Line
-	13400 1800 13400 1700
 Wire Wire Line
 	11400 850  11350 850 
 Wire Wire Line
@@ -2186,9 +2182,9 @@ Wire Wire Line
 Wire Wire Line
 	11500 4150 11450 4150
 Wire Wire Line
-	11450 4400 11450 4150
+	11450 4150 11450 4400
 Wire Wire Line
-	10950 4400 11450 4400
+	11450 4400 10950 4400
 Wire Wire Line
 	11250 4400 11250 4450
 Wire Wire Line
@@ -2208,4 +2204,8 @@ Text Notes 10500 3800 0    60   ~ 0
 Input servo 5V\n\n\n\n
 Text Notes 11850 10150 0    118  ~ 0
 Main Board - Electropioneer
+Wire Wire Line
+	13400 1250 13400 1350
+Wire Wire Line
+	13400 1750 13400 1800
 $EndSCHEMATC
