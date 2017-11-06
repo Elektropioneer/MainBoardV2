@@ -3,7 +3,7 @@
   (general
     (links 229)
     (no_connects 4)
-    (area 58.772667 30.932 155.32 110.37788)
+    (area 62.154999 36.246999 143.585001 109.422001)
     (thickness 1.6)
     (drawings 240)
     (tracks 759)
@@ -293,11 +293,6 @@
       (net 26 PB6))
     (pad 8 thru_hole oval (at 0 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 27 PB7))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59D011C6) (tstamp 59D02620)
@@ -380,11 +375,6 @@
       (net 57 TXD1))
     (pad 4 thru_hole oval (at 0 7.62 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol (layer F.Cu) (tedit 59E62AFA) (tstamp 59D025EF)
@@ -512,11 +502,6 @@
       (net 53 PG1))
     (pad 5 thru_hole circle (at 12.7 21.59 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 62 PG2))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x05.wrl
-      (at (xyz 0.2 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59D011C8) (tstamp 59D02638)
@@ -603,11 +588,6 @@
       (net 20 PB0))
     (pad 6 thru_hole oval (at 0 12.7 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.54mm.wrl
-      (at (xyz 0 -0.25 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol (layer F.Cu) (tedit 595CAE43) (tstamp 595796F2)
@@ -768,11 +748,6 @@
       (net 2 GND))
     (pad 8 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Crystals:Crystal_SMD_HC49-SD (layer F.Cu) (tedit 595C0AE1) (tstamp 595B9DFC)
@@ -852,11 +827,6 @@
       (net 7 CANL))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CDDE2) (tstamp 595CDFD9)
@@ -903,11 +873,6 @@
       (net 2 GND))
     (pad 8 thru_hole oval (at 0 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 595D025E) (tstamp 595CE164)
@@ -946,11 +911,6 @@
       (net 43 PE1))
     (pad 4 thru_hole oval (at 0 7.62 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CDDEC) (tstamp 595CE00D)
@@ -997,11 +957,6 @@
       (net 2 GND))
     (pad 8 thru_hole oval (at 0 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm (layer F.Cu) (tedit 595C0D09) (tstamp 59579982)
@@ -2619,11 +2574,6 @@
       (net 7 CANL))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 595CDE40) (tstamp 595CDF93)
@@ -2662,11 +2612,6 @@
       (net 7 CANL))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 595CDDFF) (tstamp 595CDFA9)
@@ -2705,11 +2650,6 @@
       (net 10 SDA))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CDDE5) (tstamp 595CDFBF)
@@ -2756,11 +2696,6 @@
       (net 18 PA6))
     (pad 8 thru_hole oval (at 0 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 19 PA7))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CDDEA) (tstamp 595CE027)
@@ -2807,11 +2742,6 @@
       (net 4 +5V))
     (pad 8 thru_hole oval (at 0 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 +5V))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CE734) (tstamp 595CE041)
@@ -2858,11 +2788,6 @@
       (net 34 PC6))
     (pad 8 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 PC7))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CE73E) (tstamp 595CE05B)
@@ -2909,11 +2834,6 @@
       (net 2 GND))
     (pad 8 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 595CDDF8) (tstamp 595CE075)
@@ -2956,11 +2876,6 @@
       (net 40 PE6))
     (pad 6 thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 41 PE7))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.54mm.wrl
-      (at (xyz 0 -0.25 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 595CDE34) (tstamp 595CE0A5)
@@ -3003,11 +2918,6 @@
       (net 5 RESET))
     (pad 6 thru_hole oval (at 0 12.7 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.54mm.wrl
-      (at (xyz 0 -0.25 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 595CDE38) (tstamp 595CE0BD)
@@ -3054,11 +2964,6 @@
       (net 50 PF6))
     (pad 8 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 51 PF7))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 595CDDDA) (tstamp 595CE11F)
@@ -3101,11 +3006,6 @@
       (net 16 PA4))
     (pad 6 thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 17 PA5))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.54mm.wrl
-      (at (xyz 0 -0.25 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59D00F0F) (tstamp 59D01031)
@@ -3257,11 +3157,6 @@
       (net 4 +5V))
     (pad 8 thru_hole oval (at 0 17.78 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 +5V))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module LEDs:LED_1206 (layer F.Cu) (tedit 59E75A01) (tstamp 59E510E5)
