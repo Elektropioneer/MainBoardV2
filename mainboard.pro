@@ -1,4 +1,4 @@
-update=четвртак, 20. јул 2017. 13:06:57 CEST
+update=четвртак, 09. новембар 2017. 09:49:51 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../EP_Module
 [eeschema/libraries]
 LibName1=mainboard-rescue
 LibName2=power
@@ -121,6 +121,7 @@ LibName89=ttl_ieee
 LibName90=video
 LibName91=wiznet
 LibName92=zetex
+LibName93=ep_module
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -130,4 +131,4 @@ SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
-LabSize=60
+LabSize=118
