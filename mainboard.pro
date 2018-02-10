@@ -1,4 +1,4 @@
-update=четвртак, 09. новембар 2017. 09:49:51 CET
+update=уторак, 21. новембар 2017. 09:58:27 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=118
 [eeschema]
 version=1
 LibDir=../EP_Module
@@ -122,13 +132,3 @@ LibName90=video
 LibName91=wiznet
 LibName92=zetex
 LibName93=ep_module
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118

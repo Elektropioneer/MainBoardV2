@@ -40,7 +40,9 @@ LIBS:Xicor
 LIBS:Zilog
 LIBS:ac-dc
 LIBS:actel
+LIBS:allegro
 LIBS:analog_devices
+LIBS:battery_management
 LIBS:bbd
 LIBS:bosch
 LIBS:brooktre
@@ -53,16 +55,20 @@ LIBS:gennum
 LIBS:graphic
 LIBS:hc11
 LIBS:ir
+LIBS:leds
 LIBS:logo
 LIBS:maxim
+LIBS:mechanical
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
 LIBS:microchip_pic32mcu
 LIBS:modules
 LIBS:motor_drivers
+LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp
@@ -85,7 +91,6 @@ LIBS:ttl_ieee
 LIBS:video
 LIBS:wiznet
 LIBS:zetex
-LIBS:ep_module
 LIBS:mainboard-cache
 EELAYER 25 0
 EELAYER END
@@ -1118,7 +1123,7 @@ F 3 "" H 1950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP2551-I/SN U2
+L MCP2551-I/SN-RESCUE-mainboard U2
 U 1 1 59594AC0
 P 1950 1600
 F 0 "U2" H 1550 1950 50  0000 L CNN
